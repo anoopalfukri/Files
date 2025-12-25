@@ -1,0 +1,327 @@
+Disaster management involves reducing preventable losses
+1. Common Types of Cyber Crime
+Cyber crime refers to any crime committed by the abuse of 
+electronic media to influence the functioning of a computer 
+system. Common types include: **Hacking: Unauthorized access 
+to a computer network by bypassing security systems to copy, 
+alter, or erase information. **Phishing: Sending messages fr
+om false websites to trick the public into providing personal 
+information like bank account numbers and login IDs.
+Spam: The most common form, involving unsolicited bulk e-mails 
+s*ent indiscriminately for commercial or malicious purposes.
+*Cyber Terrorism: Using computer-based attacks to intimidate or 
+coerce governments or organizations to advance political or 
+social objectives. **Malware: This includes Viruses (self-repli
+cating programs), Worms (independent programs that travel across 
+networks), Trojan Horses (innocuous programs with hidden malici
+ous code), and Logic Bombs (code triggered by specific events).
+Software Piracy: The illegal duplication and distribution of 
+copyrighted software.
+
+Main Features of IT Act 2000
+The Information Technology Act 2000 is the primary legislation 
+in India dealing with cyber crimes. Legal Recognition: It provides 
+legal recognition for transactions carried out via electronic 
+data interchange and other means of electronic communication.
+Jurisdiction: The Act addresses crimes that have no national 
+boundaries, though it has certain limitations regarding interna
+tional jurisdiction when servers are located outside the country. 
+***Penalties for Source Code Tampering: Section 65 specifically 
+addresses the intentional concealment, destruction, or alteration 
+of computer source code when it is required maintained by law.
+
+Characteristics of Banking & Financial Crime and Types
+Financial or "White Collar" crimes are often more devastating to 
+society's economic fabric than conventional crimes like robbery.
+Characteristics: Perpetrators are typically well-educated, intelli
+gent, and often in well-placed societal positions. The crimes are 
+highly technical, complex, and often lack the social stigma 
+attached to conventional crimes. Victims are often the whole 
+society or large institutions rather than single individuals.
+Types: External Frauds: Committed by persons not connected with 
+the bank. Internal Frauds: Committed by bank staff or through 
+collusion between staff and outsiders. Technological Frauds: 
+Misappropriation of funds via manipulation of computer records, 
+Net-banking frauds, and ATM/Credit card frauds.
+
+
+Recent Economic Liberalisation and Enforcement Agencies
+Economic liberalization has increased the opportunities for 
+white-collar criminals, requiring stronger enforcement.
+Challenges: The complexity of commercial activity and the 
+international nature of financial transactions make investigation 
+difficult. The secrecy of accounts in multi-national or foreign 
+banks often hinders investigations. ***Enforcement Agencies:
+CBI (Central Bureau of Investigation): The nodal agency in India 
+for international cooperation via INTERPOL. DRI (Directorate of 
+Revenue Intelligence) and Directorate of Enforcement: Agencies 
+critical for dealing with economic criminality and money laundering.
+RBI (Reserve Bank of India): Issues educative advertisements 
+regarding counterfeit currency and banking safety.
+
+Types of Identity Thefts
+Identity theft involves assuming another person's identity to access 
+resources or obtain benefits in their name. ***Identity Cloning and
+Concealment: Assuming another's identity to live as that person or 
+to hide one's own identity. Criminal Identity Theft: Pretending to 
+be someone else when apprehended by the police so the victim receives 
+the criminal record. *** Synthetic Identity Theft: Creating a complete
+ly new identity by combining real information (like a stolen Social 
+Security number) with fake information. Medical Identity Theft: Using 
+someone else's identity to obtain medical services or drugs
+
+Types of Data Thefts and Source Code Theft and the Law
+Data Theft: Often perpetrated by employees using USB drives, iPods, or 
+digital cameras to steal confidential or copyrighted information before 
+leaving a company. Source Code Theft: The theft or unauthorized 
+alteration of the "computer source code" (the listing of programs/commands).
+The Law: Under Section 65 of the IT Act 2000, tampering with computer 
+source code is a punishable offense.
+
+
+Types of Spam and Uses of Spam
+Spam is the indiscriminate sending of unsolicited bulk messages. E-mail 
+Spam: The most recognized form. Instant Messaging Spam (Spim): Targets 
+IM systems. Mobile Phone Spam (SpaSMS): Directed at text messaging 
+services, often incurring fees for the recipient. Other Media: Includes 
+Wiki spam, Blog spam, Usenet newsgroup spam, and Social Networking spam.
+Uses: Spam is used to spread viruses and Trojans, conduct phishing for 
+identity theft, and facilitate "Advance Fee Frauds" (e.g., Nigerian Let
+ter Fraud).
+
+Types of Botnets and Preventive Measures
+A botnet is a collection of "zombie" computers infected with malware and 
+controlled by a "bot herder". Types of Botnet Activities: Denial of 
+Service (DoS): Flooding a target network with traffic to crash it.
+Spyware: Stealing passwords and credit card numbers from infected machines.
+Click Fraud: Making a computer visit websites without the user's knowledge 
+to generate false ad traffic. Preventive Measures: Users should avoid 
+downloading suspicious e-mail attachments that may contain bot software.
+Implementing firewalls and intrusion-detection systems. Regularly sanitizing 
+redundant IT equipment before disposal to prevent data retrieval.
+
+Unit 2
+
+Applying Scientific Methods to Digital Forensics
+The scientific method applied in digital forensics ensures 
+that conclusions are based on facts rather than preconcei
+ved notions. ***Digital Investigation and Evidence: Digit
+al investigation answers questions about digital states 
+and events (e.g., "does file X exist?"). Digital evidence 
+is any digital object that supports or refutes a hypothesis 
+regarding an offense. ***Digital Crime Scene Investigation 
+Process: Similar to physical police work, this involves 
+Preservation (making copies of memory and disks) and Surv
+eying the scene for "obvious" evidence based on file types 
+or keywords. ***General Guidelines: Key rules include 
+minimizing handling of original data, logging all actions 
+to maintain a chain of custody, and correlating data with 
+independent sources to reduce the risk of forgery. 
+***Data Analysis: Practitioners form a hypothesis, 
+evaluate it through experiments (e.g., searching for expected 
+artifacts), and draw conclusions to communicate to decision-
+makers. ***Overview of Toolkits:SMART: Analyzes multiple file 
+systems (NTFS, Ext2/3, etc.) and recovers deleted files. 
+The Sleuth Kit (TSK) / Autopsy: A collection of command-line 
+and graphical tools for file system analysis and timeline 
+creation. create note for the below main heading and content 
+is from the uploaded file that i u[loaded from only (create 
+genetate text here not google keep )
+
+Collecting and Archiving
+Methods of Collection: * Freezing the Scene: Taking a snapshot 
+of the system in its compromised state. Honeypotting: Creating 
+a replica system to lure and monitor an attacker. Artifacts: 
+Digital evidence must be Authentic (from where you say it is), 
+Reliable (procedures didn't cast doubt), and Believable to a 
+jury.Collection Steps: Involves notifying authorities, collec
+ting data onto removable non-volatile media, and creating 
+cryptographic message digests (hashes) for verification.
+
+Data Acquisition
+
+Why Collect Evidence? The two primary reasons are Future 
+Prevention (fixing the "lock") and Responsibility (holding 
+attackers accountable). Collection Options: Includes logical 
+data acquisition (using high-level protocols without raw 
+memory access) and disc imaging. Obstacles: High costs of 
+collection, system downtime, and the potential for perpetr
+ators to delete logs or evidence before they are secured.
+Rules of Evidence: Evidence should be Admissible, Authentic, 
+Complete, Reliable, and Believable. Volatile Evidence: Data 
+that is lost when power is removed. It must be collected in 
+a specific Order of Volatility, starting from registers and 
+cache, then routing tables, ARP cache, process tables, and 
+finally main memory.
+
+Data Recovery
+
+Salvaging Deleted Data: Converting unreadable or hidden data 
+into a readable form. Deleted Files and Folders vs. File 
+Carving: * File Recovery: Uses remaining file system 
+information (like metadata) to restore files.
+File Carving: Works with raw data and internal file structures 
+(e.g., JPEG headers) without relying on the file system.
+Handling Special Files: Includes extracting embedded metadata 
+(data about data) and analyzing specific file storage media and 
+systems like FAT32 or NTFS.
+
+
+Log File Analysis
+
+Timestamps: Used to determine the temporal (time) order of events 
+across different log files, though they can be complicated by 
+clock drift or tampering. File System Analysis: Detecting deleted 
+files and analyzing file attributes to reconstruct events.
+Reconstruction: Involves restoring directories from backups or 
+analyzing how exploits were compiled, run, and subsequently deleted 
+by an attacker. Moving/Deleting Files: Detecting changes in file 
+locations or attributes that indicate unauthorized activity.
+
+Firewall Security Systems
+Need and Benefits: Firewalls control access to protected networks, 
+serving as an auditor that logs traffic, compiles statistics, and 
+blocks insecure services. Why They Aren't Enough: They cannot 
+protect against attacks that bypass them (e.g., via a modem or 
+internal breach) or against authorized services that are exploited.
+Controlled Access/Concentrated Security: Firewalls provide a single 
+"choke point" where security policies and audits can be strictly imposed.
+
+Routers and Switches
+
+Routers: Often used by hackers for reconnaissance to map an internal 
+network. Common Attacks: Denial of Service (DoS) via ICMP, unauthorized 
+Telnet connections, and SNMP exploits to gain configuration data.
+Collection Procedure: Requires sound, repeatable practices to collect 
+both volatile data (like routing tables) and non-volatile data 
+(configuration files) for court.
+Switches: * Concepts and Advantages: Switches are superior to hubs 
+because they manage traffic more efficiently and can isolate network 
+segments. Data Collection: Procedures involve capturing core dumps and 
+using audit tools to evaluate security configurations
+
+
+Unit 3
+
+1. Extracting Data from Mobile Phones
+Mobile forensic data extraction involves recovering digital evidence 
+from mobile devices under forensically sound conditions. The process 
+must ensure that no actions performed by investigators change the data 
+on the original device.**SIM Cards:Data can be extracted from SIM cards 
+using a specialized smart card reader. A forensically acceptable extra
+ction can be achieved by directly analyzing the SIM contents through a 
+reader and using terminal programs to send standardized commands (e.g.,
+ ETSI 'TS 31.101'). ***Phone Memory: Extraction from phone memory is more 
+complex and often involves specialized software toolkits. Some tools use 
+a "Software Agent" installed on the phone to create a memory dump of 
+specific files, while others use protocols like OBEX or FBUS to extract 
+media files and phonebook entries.
+
+
+Data Stored in Mobile Phones
+Data on a mobile phone can be found in three primary locations: the SIM 
+card, the phone's internal memory, and the service provider's records.
+Data Stored in SIM Card: Typically includes the International Mobile 
+Subscriber Identity (IMSI), Integrated Circuit Card Identifier (ICCID), 
+Abbreviated Dialing Numbers (ADN), Last Numbers Dialed (LND), and SMS 
+messages. Data Stored in Phone Memory: Modern phones have large onboard 
+memory (e.g., 80MB or more) storing calendar information, call log entries, 
+ring tones, audio/video recordings, images, and application executables.
+Data Stored by the Service Provider: This includes subscriber identification, 
+call charging information, services obtained, and call routing data
+
+Call Detail Record (CDR)
+CDR and Carrier Data: A Call Detail Record (CDR) is an evidence 
+cornerstone containing information used by network operators for 
+subscriber identification and billing.
+Evidence Cornerstone: CDR analysis involves the retrieval of all 
+forms of data stored on the mobile device, including call log recovery, 
+text message recovery, and call pattern analysis.
+Carrier Data Challenges: The relationship between carrier data and the 
+device is crucial for forensic analysis, including the forensic analysis 
+of billing records and mobile phone downloads.
+
+Application of SIM Card Reader's
+SIM card readers allow examiners to acquire data directly from the SIM 
+using PC/SC-compatible readers. SIM Card Acquisition: Tools like TULP2G 
+allow examiners to acquire data fields such as Abbreviated Dialing Numbers 
+and SMS messages using a compatible protocol plug-in. ***Synopsis of 
+SIMIS: Version 2.0.13 can acquire a wide range of data, including IMSI, 
+MSISDN, and location information. It provides a user interface for 
+creating report notes and searching acquired data.
+Synopsis of ForensicSIM: This toolkit from Radio Tactics requires using 
+an acquisition terminal to create duplicate copies (Master, Prosecution, 
+and Defense SIMs) before analysis. It also offers an "Access Card" to 
+examine a handset without connecting to the cellular network.
+***Synopsis of Forensic Card Reader: Forensic SIM tools extract digital 
+evidence present in the hierarchical file system of a SIM, starting from 
+the Master File (MF). ***Synopsis of SIMCon: SIMCon is one of several 
+forensic tools (alongside Cell Seizure and .XRY) evaluated for its ability 
+to recover standardized SIM data like the IMSI and ICCID.
+
+
+Unit 4
+
+1. Classification of Wireless Network
+Wireless networks are classified by the Institute for Electrical and 
+Electronic Engineers (IEEE) based on their range, speed, and purpose.
+WLANs (Wireless Local Area Networks): These network a small community 
+of users, such as a campus, where medium range is required.
+802.11: The base set of standards designed for wireless Ethernet LANs.
+802.11b Wi-Fi: Operates at 2.4GHz with data rates up to 11 Mbps; range 
+is approximately 100m indoors and 500m outdoors.
+802.11a Wi-Fi: Operates at 5GHz with higher data rates up to 54 Mbps 
+but a shorter range of 20-30m. 802.11g: A versatile standard that offers 
+the high speed of 802.11a (54 Mbps) at the longer range of 802.11b.
+802.11n: Designed for much higher throughput, claiming speeds between 
+100 - 240 Mbps. WMANs (Wireless Metropolitan Area Networks): Used to 
+network city-sized areas (up to a 50 km radius) for public safety 
+agencies like fire and police. 802.16 WiMax: Supports data rates up 
+to 120 Mbps with a range up to 30 miles. 802.20: A standard designed 
+for mobile broadband wireless access. WPANs (Wireless Personal Area 
+Networks): Used for short-range multimedia communications, typically up to 10m.
+802.15.1 Bluetooth 1: The standard for short-range wireless connectivity.
+802.15.3 Wimedia: Designed for high-rate WPANs. 802.15.4 Zigbee: Used for 
+small-scale projects requiring data transfer over short distances with low 
+power consumption.
+
+
+Wireless Security Best Practices
+To protect wireless networks, organizations should apply technical and 
+operational controls. MAC ID Filtering: Every Network Interface Card (NIC) 
+has a unique MAC address. Access points can be configured to allow only 
+specific, authorized MAC IDs. However, this is easily bypassed by "MAC 
+spoofing" where a hacker uses "sniffing" software to detect and then 
+mimic an authorized address. Static IP Addressing: Assigning fixed IP 
+addresses rather than using DHCP can add a minor layer of complexity 
+for casual intruders. *** WLANs 802.11 Security: Encryption: Because 
+radio signals leak outside buildings, encryption is essential. 
+WEP (Wired Equivalent Privacy) is considered weak and easily cracked; 
+WPA (Wi-Fi Protected Access) and WPA2 (802.11i) are more secure 
+alternatives. AP Configuration: Change default administrator passwords 
+immediately. Disable "remote administration" unless absolutely necessary.
+Signal Management: Place access points away from exterior walls and reduce 
+transmitter power to limit the signal's reach outside the premises.
+
+The Ethical Hacking Process
+Ethical hacking, or penetration testing, involves using the same tools 
+and techniques as malicious hackers but with the target's permission 
+to discover and fix vulnerabilities. ***Formulating the Plan: This 
+initial stage involves defining the scope of the test. Ethical hackers 
+work with the organization to understand what assets need protection 
+and what the boundaries for the assessment will be. ***Selecting Tools: 
+Teams are assembled based on expertise (e.g., routers, Linux, firewalls)
+.They select appropriate tools for the specific environment, such as 
+"sniffers" for wireless traffic or tools to probe entry points.
+***Executing the Plan: This phase involves active testing. It may start 
+with "Reconnaissance" to identify system information, followed by posing 
+as a normal user to evaluate security measures (like WEP strength), and 
+finally attempting to exploit discovered vulnerabilities to access other 
+network segments. ***Evaluating Results: The findings are compiled into 
+a comprehensive, traceable report. This report includes results, conclus
+ions, and recommendations ranked by risk and probability.
+Moving On: Because new vulnerabilities appear regularly, security tests 
+are only a "snapshot" of a system's posture. Organizations must plan for 
+regular, ongoing testing to maintain security as systems change or are upgraded
+
+
